@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/timeout', function (req, res, next) {
+  setTimeout(function () {
+    res.json({status: true});
+  },4000)
+});
 module.exports = router;
