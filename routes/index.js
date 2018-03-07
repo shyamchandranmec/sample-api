@@ -25,7 +25,7 @@ router.post('/sibisnis', function (req, res, next) {
     response = sibisnisService[fn].pending;
     console.log('Sending pending on h2h-bayar')
   } else if (fn == 'h2h-cek-pending') {
-      response = sibisnisService[fn].success;
+      response = sibisnisService[fn].pending;
       console.log(response)
   }
 
