@@ -11,7 +11,7 @@ module.exports = {
     },
     success: {
       "status": "success",
-      "errcode": "200",
+      "errcode": 200,
       "remarks": "OK",
       "data": {
         "kode_voucher": "A25",
@@ -30,7 +30,7 @@ module.exports = {
   'h2h-cek-pending': {
     pending: {
       "status": "success",
-      "errcode": "200",
+      "errcode": 200,
       "remarks": "OK",
       "data": {
         "status_trx": "pending",
@@ -40,7 +40,7 @@ module.exports = {
     },
     failed: {
       "status": "success",
-      "errcode": "200",
+      "errcode": 200,
       "remarks": "OK",
       "data": {
         "status_trx": "failed",
@@ -50,7 +50,7 @@ module.exports = {
     },
     refund: {
       "status": "success",
-      "errcode": "200",
+      "errcode": 200,
       "remarks": "OK",
       "data": {
         "status_trx": "refund",
@@ -60,7 +60,7 @@ module.exports = {
     },
     success: {
       "status": "success",
-      "errcode": "200",
+      "errcode": 200,
       "remarks": "OK",
       "data": {
         "status_trx": "success",
